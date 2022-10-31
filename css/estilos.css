@@ -37,7 +37,7 @@ img{
 
 section{
     text-align: center;
-    padding: 1rem;
+    padding: 20px;
 }
 
 /*header*/
@@ -46,7 +46,7 @@ header{
     background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.39);
+    background-color: rgba(0, 0, 0, 0.562);
     background-blend-mode: multiply;
 }
 
@@ -89,7 +89,8 @@ nav a:hover{
 }
 
 .hero p{
-    margin-top: 4em;
+    margin-top: 5px;
+    color: #fff;
 }
 
 .hero h1{
@@ -97,21 +98,36 @@ nav a:hover{
 }
 /*headings*/
 
+.form-code{
+    width: 50%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.busqueda{
+    padding: 15px 70px;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-buscar{
+    background: #000;
+    margin: 20px;
+    padding: 15px 65px;
+    color: #fff;
+    border-radius: 20px;
+    
+}
+
+.btn-buscar:hover{
+    background: transparent;
+    transition: all 0.5s ease 0s;
+}
+
 button{
     cursor: pointer;
 }
 
-.btn-unirse{
-    font-size: 1.2em;
-    font-weight: 600;
-    width: 8em;
-    padding: 1em;
-    background: transparent;
-    color: var(--color-one);
-    border: 3px solid;
-    margin-top: 2em;
-    position: relative;
-}
 
 .btn-leer{
     font-size: 1rem;
@@ -149,6 +165,20 @@ button{
     font-weight: 300;
 }
 
+/*espacios*/
+.cont-spaces{
+    display: grid;
+    grid-template-rows: 230px 200px 40px;
+    grid-template-columns: 230px 230px 230px;
+    grid-gap: 50px 50px;
+    width: 45%;
+    margin: 40px auto;
+}
+
+.spaces-card{
+    width: 250px;
+    height: 250px;
+}
 
 /*cards*/
 .container{
