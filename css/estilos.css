@@ -258,27 +258,6 @@ button{
     text-transform: uppercase;
 }
 
-/*contactanos*/
-.img-contacto{
-    width: 60px;
-    margin: 2em auto;
-}
-
-.contacto{
-    margin: 2px 50px 20px 50px;
-    
-}
-
-.contactos{
-    display: flex;
-    margin: 20px 20px 60px 50px;
-    align-content: space-between;
-}
-
-.contacto p{
-    font-weight: 300;
-
-}
 
 /*footer*/
 footer{
