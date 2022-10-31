@@ -1,9 +1,3 @@
-/*estilos generales*/
-:root{
-    --color-one: #7d8491;
-/*     CAD2C5, 84A98C, 52796F, 354F52, 2F3E46,  */
-}
-
 i{
     color: #84A98C;
 }
@@ -250,7 +244,6 @@ button{
     height: 40px;
     border: 0;
     margin: 20px 0;
-    color: #000;
     border-radius: 5px;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -262,8 +255,8 @@ button{
 }
 
 .btn-one{
-    background-color: var(--color-one);
-    color: #000;
+    background-color: #04273a;
+    color: #CAD2C5;
 }
 
 .btn-two{
@@ -272,7 +265,7 @@ button{
 }
 
 .btn-one:hover{
-    background: #7d8491;
+    background: #2F3E46;
 }
 
 .btn-two:hover{
@@ -313,6 +306,92 @@ footer p{
     font-size: 15px;
     color: #84A98C;
 }
+
+/*seccion contactos*/
+.contactos{
+    background: #fff;
+}
+    
+form{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form{
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: #fff;
+}
+
+.izqur{
+    width: 40%; /*delimitando el ancho del elemento de la izquierda*/
+    background-image: url(https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-size: cover; /*tamaño ideal*/
+    background-repeat: no-repeat;
+}
+
+.derch{
+    width: 50%;
+    padding: 50px;
+}
+.derch h3{
+    text-align: center;
+    color: #CAD2C5;
+    text-transform: uppercase;
+    margin: 20px;
+}
+
+input[type="text"], [type="email"], textarea{
+    width: 60%;
+    background: #e6e6e6;
+    border: none;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    padding: 0 30px;
+    color: #666;
+}
+
+input:focus, textarea:focus{ /*dar click*/
+    outline: 1px solid #84A98C; /*contorno del input*/
+}
+
+textarea{
+    height: auto;
+    padding: 5px 30px;
+    resize: none;
+    font-size: 13px;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+    accent-color: #52796F;
+}
+
+label{
+    color: #52796F;
+}
+
+input[type="submit"]{
+    height: 50px;
+    border-radius: 25px;
+    min-width: 190px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(45deg, #2F3E46 0%, #52796F 100%);
+    color: #fff;
+    margin: 20px ;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(45deg, #84A98C 0%, #2F3E46 100%);
+}
+
 
 
 @media (max-width:500px) {
